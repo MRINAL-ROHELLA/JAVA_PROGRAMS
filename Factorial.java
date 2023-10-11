@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FACT{
+public class Factorial{
     public static void main(String[] args){
         Scanner scann= new Scanner(System.in);
         System.out.println("Enter Number: ");

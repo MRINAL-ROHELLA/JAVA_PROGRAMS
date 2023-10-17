@@ -15,4 +15,3 @@ public class ReverseNum {
   }   
   System.out.println("Reverse of "+temp+" is "+sum); 
 }
-}

@@ -9,14 +9,14 @@ public class ArmstrongFunction {
         }
         return count;
     }
-    static int findPower(int base, int exp) {
+    static int findPower(int b, int exp) {
         int powerValue = 1;
         for (int i = 1; i <= exp; i++) {
-            powerValue = powerValue*base;
+            powerValue = powerValue*b;
         }
         return powerValue;
     }
-    static int isArmstrong(int num){
+    static int isArms(int num){
         int n= num;
         int Numlength= findLength(n);
         int sum=0;
@@ -32,7 +32,7 @@ public class ArmstrongFunction {
         Scanner scann= new Scanner(System.in);
         System.out.println("Enter number: ");
         int number = scann.nextInt();
-        int value = isArmstrong(number);
+        int value = isArms(number);
         if (number == value) {
             System.out.println("Arm");
         } else {
